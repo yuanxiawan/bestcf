@@ -6,7 +6,7 @@ import re
 api_token = os.environ.get("CLOUDFLARE_API_TOKEN")
 zone_id = os.environ.get("CLOUDFLARE_ZONE_ID")
 name = os.environ.get("BEST_NAME")
-ipdb_api_url = "https://raw.githubusercontent.com/hubbylei/bestcf/master/bestcf.txt"
+ipdb_api_url = "https://raw.githubusercontent.com/yutian81/CFCDN-Auto/main/FDIP/all.txt"
 
 headers = {
     "Authorization": f"Bearer {api_token}",
